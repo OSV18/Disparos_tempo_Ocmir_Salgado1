@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Reto3
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 7614239795862416332, guid: 1467d37392d23af4eb3049a8f7cc228a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 94fbbad58853b924895b6cc7270d00f2, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 100002, guid: 64b373dc9644b9c47b9180ddbb7cfa66, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 3922467191116515364, guid: 0fce084c81a9dc7459e884f5336de73d, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: aa7d5756e0aa20e48ba6ffa95e0a2faf, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 3922467191116515364, guid: a197848715d6639429b547be37f40745, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 258027a402e59f74786d9c12b84e8c2f, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 22bd877bcd61ad84f9edba6702109aee, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 184044, guid: a658eab1da5d5ae428cff76f5b088d4b, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  addToDefaults: 0
