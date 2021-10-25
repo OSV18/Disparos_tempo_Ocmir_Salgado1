@@ -394,8 +394,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792190862}
-  m_LocalRotation: {x: 0.13503172, y: -0.34056678, z: 0.049475864, w: 0.9291571}
-  m_LocalPosition: {x: 27.526403, y: 20.322939, z: -22.798256}
+  m_LocalRotation: {x: 0.11318325, y: -0.33044654, z: 0.039931197, w: 0.9361625}
+  m_LocalPosition: {x: 17.048428, y: 11.595034, z: -9.211284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -657,6 +657,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: Trigger
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: isShoot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: Cooldown
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: timefire
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
       propertyPath: Ammunation
       value: 
       objectReference: {fileID: 3922467191116515364, guid: d85f7621035664442bb08521f2d94c9a, type: 3}
@@ -740,6 +756,14 @@ PrefabInstance:
     - target: {fileID: 2147566298837806395, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: isShoot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: Cooldown
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
       propertyPath: Ammunation
@@ -882,6 +906,14 @@ PrefabInstance:
     - target: {fileID: 2147566298837806395, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: isShoot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
+      propertyPath: Cooldown
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2923753465110850574, guid: 78a33966cc5639b4387c905a99a39d65, type: 3}
       propertyPath: Ammunation

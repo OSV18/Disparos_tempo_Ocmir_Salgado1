@@ -110,3 +110,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedBoll: 8
   lifeBoll: 5
+  scale: {x: 0.2, y: 0.2, z: 0.2}

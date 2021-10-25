@@ -17,16 +17,17 @@ public class BollController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Scale();
+        }
 
         lifeBoll -= Time.deltaTime;
         if (lifeBoll > 0)
         {
             MoveBoll(Vector3.right);
         }
-        if (lifeBoll > 0)
-        {
-            Scale();
-        }
+        
         else
         {
             Destroy(gameObject);
@@ -41,7 +42,7 @@ public class BollController : MonoBehaviour
         
     private void Scale()
     {
-        transform.localScale += new Vector3(0.2f, 0.2f, 0.2f) * Time.deltaTime;
+        transform.localScale += new Vector3(0.2f, 0.2f, 0.2f);
     }
       
 
